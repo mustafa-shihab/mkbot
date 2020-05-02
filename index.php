@@ -3,8 +3,7 @@ ob_start();
 error_reporting(0);
 date_default_timezone_set('Asia/syria');
 //--------[Your Config]--------//
-$Dev = **ADMIN**;
-$Token = "**TOKEN**";
+require "config.php";
 $channel = "@bots_syria";
 $logchannel = 756581984;
 $host_folder = "https://nndnd.cf/twasls";
